@@ -26,8 +26,6 @@ nav {
 }
 .heading {
   display: flex;
-  justify-content: centre;
-  text-align: centre;
   padding: 10px;
   font-family: Dosis;
   font-size: 20px;
