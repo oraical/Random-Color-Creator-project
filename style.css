@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Sassy+Frass&family=Satisfy&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+}
+main {
+  height: 100%;
+  width:100%;
+  background-color:pink;
+}
+
+*{
+  margin:0px;
+  padding: 0 px;
+}
+nav { 
+  background-color : lightgray;
+  height: 50px;
+  width:100%;
+  padding: 25px 0px 0px 10px ;
+  font-family: Dosis;
+  letter-spacing: 2px;
+  font-size: 20px
+}
+.heading {
+  display: flex;
+  justify-content: centre;
+  text-align: centre;
+  padding: 10px;
+  font-family: Dosis;
+  font-size: 20px;
+  font-weight: bolder;
+  
+
+}
+a{
+  text-decoration: none;
+  margin: auto;
+  color: black ;
+}
+.child {
+ font-weight: bolder;
+ font-size: 40px;
+ font-family: Satisfy;
+ text-align: centre;
+  letter-spacing: 2px;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  width: 300px;
+  
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: note;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: satisfy;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bolder;
+  
+}
